@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
 
 public class ForecastFragment extends Fragment {
     ////    @Override
@@ -19,7 +20,7 @@ public class ForecastFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View v = new View(getContext());
-        v.setBackgroundColor(0x0040ff);
+        v.setBackgroundColor(0xFF0040ff);
         return v;
     }
 }
