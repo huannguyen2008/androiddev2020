@@ -8,19 +8,13 @@ import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.FrameLayout;
-
 public class ForecastFragment extends Fragment {
-    ////    @Override
-//    protected void onCreate(Bundle savedInstanceState) {
-//        super.onCreate(savedInstanceState);
-//        setContentView(R.layout.activity_forecast_fragment);
-//    }
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = new View(getContext());
-        v.setBackgroundColor(0xFF0040ff);
-        return v;
+        View view = inflater.inflate(R.layout.activity_forecast_fragment,container,false);
+        view.setBackgroundColor(0xFFffffff);
+
+        return view;
     }
 }
