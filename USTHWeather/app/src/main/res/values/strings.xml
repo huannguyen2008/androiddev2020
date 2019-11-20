@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">USTH Weather</string>
-    <string name="rainy">Thursday</string>
+    <string name="monday_sunny">Monday</string>
+    <string name="tuesday_cloudy">Tuesday</string>
+    <string name="wednesday_cloudy">Wednesday</string>
+    <string name="thursday_rainy1">Thursday</string>
+    <string name="friday_rainy2">Friday</string>
+    <string name="saturday_rainy3">Saturday</string>
+    <string name="sunday_sunny2">Thursday</string>
 </resources>
