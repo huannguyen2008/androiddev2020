@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -21,7 +24,7 @@
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="@string/monday_sunny"
+            android:text="@string/monday"
             android:textSize="20sp"
             tools:ignore="MissingConstraints"/>
     </LinearLayout>
@@ -39,7 +42,7 @@
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="@string/tuesday_cloudy"
+            android:text="@string/tuesday"
             android:textSize="20sp"
             tools:ignore="MissingConstraints"/>
     </LinearLayout>
@@ -57,7 +60,7 @@
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="@string/wednesday_cloudy"
+            android:text="@string/wednesday"
             android:textSize="20sp"
             tools:ignore="MissingConstraints"/>
     </LinearLayout>
@@ -75,7 +78,7 @@
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="@string/thursday_rainy1"
+            android:text="@string/thursday"
             android:textSize="20sp"
             tools:ignore="MissingConstraints"/>
     </LinearLayout>
@@ -93,7 +96,7 @@
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="@string/friday_rainy2"
+            android:text="@string/friday"
             android:textSize="20sp"
             tools:ignore="MissingConstraints"/>
     </LinearLayout>
@@ -111,7 +114,7 @@
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="@string/saturday_rainy3"
+            android:text="@string/saturday"
             android:textSize="20sp"
             tools:ignore="MissingConstraints"/>
     </LinearLayout>
@@ -129,8 +132,9 @@
         <TextView
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:text="@string/sunday_sunny2"
+            android:text="@string/sunday"
             android:textSize="20sp"
             tools:ignore="MissingConstraints"/>
     </LinearLayout>
 </LinearLayout>
+</androidx.core.widget.NestedScrollView>

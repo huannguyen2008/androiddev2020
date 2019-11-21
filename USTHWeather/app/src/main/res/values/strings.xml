@@ -1,10 +1,19 @@
 <resources>
     <string name="app_name">USTH Weather</string>
-    <string name="monday_sunny">Monday</string>
-    <string name="tuesday_cloudy">Tuesday</string>
-    <string name="wednesday_cloudy">Wednesday</string>
-    <string name="thursday_rainy1">Thursday</string>
-    <string name="friday_rainy2">Friday</string>
-    <string name="saturday_rainy3">Saturday</string>
-    <string name="sunday_sunny2">Thursday</string>
+<!--    7 days in a week-->
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+<!--    State of weather-->
+    <string name="sunny">Sunny</string>
+    <string name="cloudy">Cloudy</string>
+    <string name="rainy">Rainy</string>
+<!--    City-->
+    <string name="Paris">Paris(France)</string>
+    <string name="Hanoi">Hanoi(Vietnam)</string>
+    <string name="Thimphu">Thimphu(Bhutan)</string>
 </resources>
