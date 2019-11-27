@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">USTH Weather</string>
-<!--    7 days in a week-->
+    <!--    7 days in a week-->
     <string name="monday">Monday</string>
     <string name="tuesday">Tuesday</string>
     <string name="wednesday">Wednesday</string>
@@ -8,11 +8,11 @@
     <string name="friday">Friday</string>
     <string name="saturday">Saturday</string>
     <string name="sunday">Sunday</string>
-<!--    State of weather-->
+    <!--    State of weather-->
     <string name="sunny">Sunny</string>
     <string name="cloudy">Cloudy</string>
     <string name="rainy">Rainy</string>
-<!--    City-->
+    <!--    City-->
     <string name="Paris">Paris(France)</string>
     <string name="Hanoi">Hanoi(Vietnam)</string>
     <string name="Thimphu">Thimphu(Bhutan)</string>

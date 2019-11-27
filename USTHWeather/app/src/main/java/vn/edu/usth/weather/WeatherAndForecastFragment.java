@@ -1,19 +1,18 @@
 package vn.edu.usth.weather;
-import android.os.Bundle;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-public class ForecastFragment extends Fragment {
-    @Nullable
+
+public class WeatherAndForecastFragment extends Fragment {
+
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.activity_forecast_fragment,container,false);
-        view.setBackgroundColor(0xFFE0E0FF);
-        return view;
+        return inflater.inflate(R.layout.activity_weather_and_forecast_fragment,container,false);
     }
 }
