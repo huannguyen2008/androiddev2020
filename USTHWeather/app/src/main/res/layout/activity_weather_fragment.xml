@@ -6,7 +6,7 @@
     android:orientation="vertical"
     tools:context=".WeatherFragment"
     android:id="@+id/weather_fragment"
-    android:background="@drawable/cloudy"
+    android:background="@drawable/frame_patch"
     xmlns:android="http://schemas.android.com/apk/res/android">
         <TextView
             android:layout_width="@dimen/width_text_weather_fragment"
@@ -20,4 +20,8 @@
             android:layout_alignParentRight="true"
             android:text="@string/Paris"
             android:layout_alignParentEnd="true" />
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/cloudy"/>
 </RelativeLayout>
