@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Thời tiết USTH</string>
+    <!--    7 days in a week-->
+    <string name="monday">Thứ Hai</string>
+    <string name="tuesday">Thứ Ba</string>
+    <string name="wednesday">Thứ Tư</string>
+    <string name="thursday">Thứ Năm</string>
+    <string name="friday">Thứ Sáu</string>
+    <string name="saturday">Thứ Bảy</string>
+    <string name="sunday">Chủ Nhật</string>
+    <!--    State of weather-->
+    <string name="sunny">Nắng</string>
+    <string name="cloudy">Nhiều mây</string>
+    <string name="rainy">Mưa</string>
+    <!--    City-->
+    <string name="Paris">Paris(France)</string>
+    <string name="Hanoi">Hanoi(Vietnam)</string>
+    <string name="Thimphu">Thimphu(Bhutan)</string>
+</resources>

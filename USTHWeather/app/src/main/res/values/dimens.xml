@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_forecast">20sp</dimen>
+    <dimen name="width_text_weather_fragment">90dp</dimen>
+    <dimen name="height_text_weather_fragment">20dp</dimen>
+    <dimen name="height_weather_fragment">350dp</dimen>
+    <dimen name="height_tablayout">40dp</dimen>
+
+</resources>

@@ -10,7 +10,7 @@
         android:id="@+id/weatherfragment"
         class="vn.edu.usth.weather.WeatherFragment"
         android:layout_width="wrap_content"
-        android:layout_height="350dp"
+        android:layout_height="@dimen/height_weather_fragment"
         tools:layout="@layout/activity_weather_fragment" />
 
     <fragment
