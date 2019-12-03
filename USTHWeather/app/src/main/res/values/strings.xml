@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">USTH Weather</string>
+    <string name="refresh">Refresh</string>
+    <string name="refresh_toast">Refreshed!</string>
     <!--    7 days in a week-->
     <string name="monday">Monday</string>
     <string name="tuesday">Tuesday</string>

@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Thời tiết USTH</string>
+    <string name="refresh">Làm Mới</string>
+    <string name="refresh_toast">Đã Làm Mới!</string>
     <!--    7 days in a week-->
     <string name="monday">Thứ Hai</string>
     <string name="tuesday">Thứ Ba</string>

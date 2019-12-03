@@ -4,9 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import com.google.android.material.tabs.TabLayout;
 
 public class WeatherActivity extends AppCompatActivity {
@@ -22,6 +27,19 @@ public class WeatherActivity extends AppCompatActivity {
         pager.setAdapter(adapter);
         TabLayout tabLayout = findViewById(R.id.tab);
         tabLayout.setupWithViewPager(pager);
+        MediaPlayer mediaplayer = MediaPlayer.create(WeatherActivity.this,R.raw.musicbackground);
+        mediaplayer.start();
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        Toast.makeText(this, R.string.refresh_toast, Toast.LENGTH_SHORT).show();
+        return true;
     }
 
     @Override
